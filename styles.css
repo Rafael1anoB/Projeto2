@@ -3,22 +3,21 @@ body {
     background: black;
     margin: 0px;
 }
- 
-header{
+
+header {
     border-bottom: solid 2px rgb(160, 163, 186);
     padding: 20px;
-    font-size: 32px
-    color: rgb(160, 163, 186);
+    font-size: 32px color: rgb(160, 163, 186);
 }
 
- section {
+section {
     background: rgb(184, 156, 213);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
     justify-content: center
- }
+}
 
- div{
-     margin-right: 20px;
- }
+div {
+    margin-right: 20px;
+}
