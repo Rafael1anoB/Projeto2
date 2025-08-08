@@ -10,6 +10,10 @@ header {
     border-bottom: solid 2px rgb(160, 163, 186);
     padding: 20px;
     font-size: 32px color: rgb(160, 163, 186);
+    .logo {
+    height: 90px; /* ajuste o tamanho conforme necessário */
+    width: auto;
+};
 }
 
 .chamada {
@@ -65,7 +69,3 @@ p {
     gap: 15px; /* espaço entre logo e texto */
 }
 
-.logo {
-    height: 90px; /* ajuste o tamanho conforme necessário */
-    width: auto;
-}
