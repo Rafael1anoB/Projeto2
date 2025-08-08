@@ -10,10 +10,16 @@ header {
     border-bottom: solid 2px rgb(160, 163, 186);
     padding: 20px;
     font-size: 32px color: rgb(160, 163, 186);
-    .logo {
-    height: 90px; /* ajuste o tamanho conforme necessário */
+    .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px; 3px;
+}
+
+.logo {
+    height: 90px; 10px
     width: auto;
-};
+}
 }
 
 .chamada {
@@ -62,10 +68,3 @@ p {
 .categoria h2 {
     color: rgb(160, 163, 186);
 }
-
-.logo-container {
-    display: flex;
-    align-items: center;
-    gap: 15px; /* espaço entre logo e texto */
-}
-
