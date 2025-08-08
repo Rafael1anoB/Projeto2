@@ -58,3 +58,14 @@ p {
 .categoria h2 {
     color: rgb(160, 163, 186);
 }
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* espaço entre logo e texto */
+}
+
+.logo {
+    height: 90px; /* ajuste o tamanho conforme necessário */
+    width: auto;
+}
