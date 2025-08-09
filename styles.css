@@ -14,11 +14,11 @@ header {
     .logo-container {
     display: flex;
     align-items: center;
-    gap: 15px; /* espaço entre logo e texto */
+    gap: 15px; 2px;
 }
 
 .logo {
-    height: 90px; 10px
+    height: 90px; 10px;
     width: auto;
 }
 }
