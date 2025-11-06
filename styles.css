@@ -11,7 +11,7 @@ header {
 }
 
 section {
-    background: purple;
+    background: rgb(100,203,40);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
