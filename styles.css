@@ -12,4 +12,6 @@ header {
 
 section {
     background: darkgray;
+    padding-bottom: 80px;
+    padding-top: 80px;
 }
