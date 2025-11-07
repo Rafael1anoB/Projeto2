@@ -80,3 +80,12 @@
         const letters = bigShot.textContent.split('');
         bigShot.innerHTML = '';
         letters.forEach((ch, i) => {
+            const span = document.createElement('span');
+            span.textContent = ch;
+            span.style.animationDelay = `${i * 0.2}s`;
+            bigShot.appendChild(span);
+        });
+    </script>
+
+</body>
+</html>
