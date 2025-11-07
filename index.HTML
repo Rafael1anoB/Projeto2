@@ -5,7 +5,63 @@
 </head>
 
 <body>
+<style>
+        /* ----------- Estilo geral (mantive simples e centralizado) ----------- */
+        body {
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: white;
+            text-align: center;
+            margin-top: 80px;
+        }
 
+        header {
+            font-size: 2rem;
+            margin-bottom: 30px;
+            letter-spacing: 2px;
+        }
+
+        h1 {
+            font-size: 1.8rem;
+        }
+
+        p {
+            font-weight: bold;
+        }
+
+        /* ----------- Animação arco-íris em cada letra ----------- */
+        .big-shot {
+            display: inline-block;
+        }
+
+        .big-shot span {
+            display: inline-block;
+            font-weight: 800;
+            animation: rainbow 3s linear infinite;
+        }
+
+        /* cada letra com atraso diferente */
+        .big-shot span:nth-child(1) { animation-delay: 0s; }
+        .big-shot span:nth-child(2) { animation-delay: 0.2s; }
+        .big-shot span:nth-child(3) { animation-delay: 0.4s; }
+        .big-shot span:nth-child(4) { animation-delay: 0.6s; }
+        .big-shot span:nth-child(5) { animation-delay: 0.8s; }
+        .big-shot span:nth-child(6) { animation-delay: 1s; }
+        .big-shot span:nth-child(7) { animation-delay: 1.2s; }
+        .big-shot span:nth-child(8) { animation-delay: 1.4s; }
+
+        @keyframes rainbow {
+            0%   { color: #ff3b30; transform: translateY(0); }
+            20%  { color: #ff9500; transform: translateY(-3px); }
+            40%  { color: #ffd60a; transform: translateY(0); }
+            60%  { color: #34c759; transform: translateY(3px); }
+            80%  { color: #0a84ff; transform: translateY(0); }
+           100%  { color: #5856d6; transform: translateY(0); }
+        }
+    </style>
+</head>
+
+<body>
     <header>ZYN INDUSTRY</header>
 
     <div class="chamada-texto">
